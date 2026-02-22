@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
 
 export const Contact = () => {
   return (
@@ -25,17 +25,12 @@ export const Contact = () => {
                 {
                   icon: Phone,
                   title: "Call Us",
-                  lines: ["+220 712 1486", "+220 712 1486"]
-                },
-                {
-                  icon: MessageCircle,
-                  title: "WhatsApp",
                   lines: ["+220 712 1486"]
                 },
                 {
                   icon: Mail,
                   title: "Email Us",
-                  lines: ["hello@tkfruits.com", "hello@tkfruits.com"]
+                  lines: ["hello@tkfruits.com"]
                 },
                 {
                   icon: MapPin,
