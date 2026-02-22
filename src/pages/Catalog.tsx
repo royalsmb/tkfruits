@@ -105,14 +105,7 @@ export const Catalog = () => {
                       <p className="text-white text-sm">{product.description}</p>
                     </div>
                   </div>
-                  <div className="mb-1">
-                    <h3 className="text-lg font-bold">{product.name}</h3>
-                  </div>
-                  <div className="flex items-center gap-2 text-xs text-zinc-400">
-                    <span>{product.origin}</span>
-                    <span className="w-1 h-1 rounded-full bg-zinc-300" />
-                    <span>{product.season}</span>
-                  </div>
+                  <h3 className="text-lg font-bold">{product.name}</h3>
                 </motion.div>
               ))}
             </AnimatePresence>

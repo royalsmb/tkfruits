@@ -210,8 +210,7 @@ export const Home = () => {
                     </span>
                   </div>
                 </div>
-                <h3 className="text-lg font-bold mb-1">{product.name}</h3>
-                <p className="text-sm text-zinc-400">{product.origin}</p>
+                <h3 className="text-lg font-bold">{product.name}</h3>
               </motion.div>
             ))}
           </div>
