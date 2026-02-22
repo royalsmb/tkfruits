@@ -121,7 +121,7 @@ export const Contact = () => {
                 ></textarea>
               </div>
 
-              <button className="w-full bg-primary-500 text-white py-4 rounded-xl font-bold text-lg hover:bg-primary-600 transition-all flex items-center justify-center gap-2 shadow-lg shadow-primary-500/20">
+              <button className="w-full bg-primary-500 text-white py-2.5 rounded-xl font-semibold text-sm hover:bg-primary-600 transition-all flex items-center justify-center gap-2 shadow-lg shadow-primary-500/20">
                 <Send size={18} />
                 Send Message
               </button>

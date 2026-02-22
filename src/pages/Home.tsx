@@ -41,14 +41,14 @@ export const Home = () => {
             <div className="flex flex-wrap gap-4">
               <Link
                 to="/catalog"
-                className="bg-primary-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-primary-600 transition-all flex items-center gap-2 group shadow-lg shadow-primary-500/30"
+                className="bg-primary-500 text-white px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-primary-600 transition-all flex items-center gap-2 group shadow-lg shadow-primary-500/30"
               >
                 Explore Catalog
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
               </Link>
               <Link
                 to="/contact"
-                className="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all"
+                className="bg-white/10 backdrop-blur-md text-white border border-white/20 px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-white/20 transition-all"
               >
                 Contact Us
               </Link>
@@ -288,7 +288,7 @@ export const Home = () => {
                 </li>
               ))}
             </ul>
-            <Link to="/about" className="inline-flex items-center gap-2 border-2 border-primary-400 text-primary-300 px-8 py-3 rounded-full font-bold hover:bg-primary-500 hover:border-primary-500 hover:text-white transition-all">
+            <Link to="/about" className="inline-flex items-center gap-2 border-2 border-primary-400 text-primary-300 px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-primary-500 hover:border-primary-500 hover:text-white transition-all">
               Learn Our Story <ChevronRight size={18} />
             </Link>
           </motion.div>
@@ -405,13 +405,13 @@ export const Home = () => {
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
                 to="/contact"
-                className="bg-primary-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-primary-400 transition-all shadow-lg shadow-primary-500/30"
+                className="bg-primary-500 text-white px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-primary-400 transition-all shadow-lg shadow-primary-500/30"
               >
                 Get in Touch
               </Link>
               <Link
                 to="/catalog"
-                className="bg-white/10 backdrop-blur text-white border border-white/20 px-10 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all"
+                className="bg-white/10 backdrop-blur text-white border border-white/20 px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-white/20 transition-all"
               >
                 View Products
               </Link>
