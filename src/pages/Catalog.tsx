@@ -51,7 +51,7 @@ export const Catalog = () => {
             <input
               type="text"
               placeholder="Search for mangoes, tomatoes, okra..."
-              className="w-full pl-12 pr-4 py-4 bg-white border border-zinc-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all shadow-sm"
+              className="w-full pl-12 pr-4 py-2.5 bg-white border border-zinc-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all shadow-sm text-sm"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
@@ -62,7 +62,7 @@ export const Catalog = () => {
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
                 className={cn(
-                  "px-6 py-4 rounded-2xl font-semibold transition-all text-sm",
+                  "px-4 py-2.5 rounded-xl font-semibold transition-all text-sm",
                   selectedCategory === cat
                     ? "bg-primary-500 text-white shadow-lg shadow-primary-500/20"
                     : "bg-white text-zinc-600 hover:bg-zinc-50 border border-zinc-200"

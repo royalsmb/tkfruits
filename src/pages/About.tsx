@@ -153,7 +153,7 @@ export const About = () => {
           <p className="text-zinc-500 mb-8">Whether you're a farmer looking for a fair buyer or a business seeking quality produce, we'd love to hear from you.</p>
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 bg-primary-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-primary-600 transition-all shadow-lg shadow-primary-500/20"
+            className="inline-flex items-center gap-2 bg-primary-500 text-white px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-primary-600 transition-all shadow-lg shadow-primary-500/20"
           >
             Contact Us <ArrowRight size={20} />
           </Link>
